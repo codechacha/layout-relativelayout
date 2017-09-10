@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.codestudio.myapplication.MainActivity">
+                <Button
+                    android:id="@+id/example01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example01"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/example02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example02"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/example03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example03"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/example04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example04"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/example05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example05"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/example06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example06"
+                    android:onClick="onClick"/>
+        </LinearLayout>
+</ScrollView>

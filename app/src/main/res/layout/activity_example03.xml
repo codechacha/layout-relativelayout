@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codestudio.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="TextView01"
+        android:gravity="center"
+        android:background="#80cbc4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="TextView02"
+        android:gravity="center"
+        android:background="#ababab"
+        android:layout_toRightOf="@id/tv01"
+        android:layout_below="@id/tv01"/>
+
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="TextView03"
+        android:gravity="center"
+        android:background="#ff8a65"
+        android:layout_toRightOf="@id/tv02"
+        android:layout_above="@id/tv02"/>
+
+    <TextView
+        android:id="@+id/tv04"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="TextView04"
+        android:gravity="center"
+        android:background="#29b6f6"
+        android:layout_toLeftOf="@id/tv03"
+        android:layout_below="@id/tv02"/>
+
+</RelativeLayout>
